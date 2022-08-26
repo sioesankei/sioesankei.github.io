@@ -15,6 +15,11 @@ header {
   align-items: center; /* 中の要素を上下中央に並べる */
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 header .title {
   display: flex; /* 中の要素を横並びにする */
   width: 100%;/* 幅いっぱいを指定 */
@@ -150,12 +155,15 @@ article {
 }
 
 section {
+  width: calc(100% - 32px);
+  margin: 0 auto;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .pic {
-  width: 300px;
-  margin-right: 16px;
+  padding-right: 16px;
 }
 
 .desc {
@@ -165,7 +173,7 @@ section {
 footer {
   padding: 20px;
   text-align: center;
-  background-image: url(https://www.sankei.jp/wp-content/uploads/2022/07/top-154.jpg);
+  background-image: url(../img/ike.png);
 }
 
 .copy {
