@@ -170,6 +170,11 @@ section {
   flex: 1;
 }
 
+.genten {
+  font-size: large;
+  font-weight: bold;
+}
+
 footer {
   padding: 20px;
   text-align: center;
